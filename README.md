@@ -1,5 +1,6 @@
 # Smart-Assistant-for-Research-Summarization
-Overview
+
+# Overview
 Smart Assistant for Research Summarization is an AI-powered Streamlit-based application designed to enhance your research workflow. Whether you're a student, academic, or professional, this tool helps you interact more deeply with documents by:
 
 Reading and understanding uploaded PDF or TXT files
@@ -9,7 +10,7 @@ Creating logic-based questions to test comprehension
 Justifying every answer with accurate document snippets
 This assistant transforms passive reading into an active learning experience.
 
-Features
+# Features
 Ask Anything Mode
 Ask any question related to the document, and receive contextual answers with citations.
 
@@ -22,20 +23,20 @@ Each answer comes with a referenced snippet from the source document, boosting t
 User-Friendly Interface
 A simple, clean, and interactive UI powered by Streamlit — no technical expertise needed.
 
-Installation
+# Installation
 Ensure you have Python installed, then run:
 
 pip install -r requirements.txt
 streamlit run app.py
 This will start the app on your local browser.
 
-Project Structure
+# Project Structure
 core/           # NLP pipelines: summarization, QA, question generation
 utils/          # Evaluation logic and helper functions
 app.py          # Main Streamlit application
 requirements.txt
 README.md
-AI Models Used
+# AI Models Used
 Summarization: distilbart-cnn-12-6
 A lightweight and fast transformer model fine-tuned for abstractive summarization.
 
@@ -45,10 +46,10 @@ Efficient for answering fact-based questions by locating relevant text passages.
 Question Generation: GPT-2
 Generates diverse and relevant logic-based questions to assess understanding.
 
-Ideal Use Cases
+# Ideal Use Cases
 Academic research summarization
 Rapid comprehension of lengthy documents
 Self-assessment through logic-based questioning
 Enhancing document-based learning with AI
-Feedback & Contributions
+# Feedback & Contributions
 We welcome feedback, feature requests, and contributions! If you find this tool useful or want to improve it, feel free to fork the repository or open an issue.
